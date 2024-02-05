@@ -4,11 +4,31 @@ body {
     color: #FFFFFF;
     margin: 20px 20px 0 20px;
 }
+
+h1 {
+    font-size: 42px;
+    text-align: center;
+    padding: 15px;
+}
+
+p {
+    font-size: 24px;
+    padding: 10px 0 0 10px;
+}
+
+img {
+    width: 250px;
+    display: block;
+    margin: 0 auto;
+    border: 10px dashed #FFFFFF;
+}
+
 .red, .blue, .yellow, .green {
     padding: 20px;
     min-height: 125px;
     border: 3px solid #FFFFFF;
 }
+
 .red {
     background-color: #FF0000;
     text-align: right;
@@ -16,6 +36,7 @@ body {
     border-bottom: 2px solid;
     border-left: 5px solid;
 }
+
 .blue {
     background-color: #0000FF;
     text-align: left;
@@ -24,7 +45,7 @@ body {
     border-top: 2px solid;
 }
 
-.blue p {
+.blue h2 {
     color: #C4C4C4;
 }
 
@@ -35,7 +56,8 @@ body {
     border-bottom: 2px solid;
     border-left: 5px solid;
 }
-.yellow p {
+
+.yellow h2 {
     color: #707070;
 }
 
@@ -45,4 +67,15 @@ body {
     margin-right: 50px;
     border-right: 5px solid;
     border-top: 2px solid;
+}
+
+footer {
+    background: linear-gradient(0deg, #000000, #0000ff 25%, #0066ff 70%, #000000);
+    border: 5px solid #FFFFFF;
+}
+
+footer p {
+    font-size: 20px;
+    text-align: right;
+    padding: 15px 15px 15px 0;
 }
